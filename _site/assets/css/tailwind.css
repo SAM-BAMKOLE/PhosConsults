@@ -1775,12 +1775,12 @@ html {
   width: 15px;
 }
 
-.w-\[20px\]{
-  width: 20px;
+.w-\[200px\]{
+  width: 200px;
 }
 
-.w-\[230px\]{
-  width: 230px;
+.w-\[20px\]{
+  width: 20px;
 }
 
 .w-\[25px\]{
@@ -3292,6 +3292,10 @@ html {
 
   .lg\:h-\[75vh\]{
     height: 75vh;
+  }
+
+  .lg\:w-\[230px\]{
+    width: 230px;
   }
 
   .lg\:w-\[400px\]{
