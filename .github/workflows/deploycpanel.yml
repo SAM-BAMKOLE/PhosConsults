@@ -17,5 +17,5 @@ jobs:
                   server: ftp.phosconsults.com
                   username: phosconsultsgithub@phosconsults.com
                   password: mBcx;F5I3nsz
-                  local-dir: ./_site
+                  local-dir: ./_site/
                   remote-dir: /home2/phosconst/public_html/
