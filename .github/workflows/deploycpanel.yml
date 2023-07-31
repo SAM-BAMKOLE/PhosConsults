@@ -1,7 +1,8 @@
 name: Publish Website to Cpanel
 on:
     push:
-        branches: -main
+        branches:
+            - main
 jobs:
     FTP-Deploy-Action:
         name: FTP-Deploy-Action
@@ -13,8 +14,8 @@ jobs:
             - name: FTP-Deploy-Action
               uses: SamKirkland/FTP-Deploy-Action@4.0.0
               with:
-                  server: ${{ secrets.FTP_SERVER }}
-                  username: ${{ secrets.FTP_USERNAME }}
-                  password: ${{ secrets.FTP_PASSWORD }}
+                  server: ftp.phosconsults.com
+                  username: phosconsultsgithub@phosconsults.com
+                  password: mBcx;F5I3nsz
                   local-dir: ./_site
                   remote-dir: /home2/phosconst/public_html
