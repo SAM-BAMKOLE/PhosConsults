@@ -1,0 +1,31 @@
+{
+    "name": "phosconsultsproject",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "npm-run-all -p dev:*",
+        "dev:11ty": "eleventy --serve",
+        "dev:css": "tailwindcss -i src/assets/css/tailwind.css -o _site/assets/css/tailwind.css --watch --postcss"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@11ty/eleventy": "^2.0.1",
+        "@11ty/eleventy-fetch": "^4.0.0",
+        "autoprefixer": "^10.4.14",
+        "common-tags": "^1.8.2",
+        "dotenv": "^16.3.1",
+        "front-matter": "^4.0.2",
+        "npm-run-all": "^4.1.5",
+        "postcss": "^8.4.27",
+        "tailwindcss": "^3.3.3"
+    },
+    "dependencies": {
+        "@contentful/rich-text-html-renderer": "^16.1.0",
+        "@tailwindcss/typography": "^0.5.9",
+        "contentful": "^10.3.6",
+        "tailwindcss-border-gradients": "^2.0.3"
+    }
+}

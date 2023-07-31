@@ -1,0 +1,47 @@
+        <!-- services section -->
+        <section class="bg-gray-300 mx-auto py-10 md:py-20" id="services">
+            <div class="mx-auto max-w-7xl px-3 md:px-10">
+                <h2
+                    class="text-center text-black font-bold text-[20px] md:text-[40px] md:font-extrabold mb-2 md:max-w-2xl mx-auto"
+                    id="services-heading"
+                    data-aos="fade-up"
+                >
+                    Services we offer.
+                </h2>
+                <div class="">
+                    <p
+                        class="text-center text-gray-700 font-medium text-sm md:text-base mb-5 md:max-w-2xl mx-auto"
+                        id="services-paragraph"
+                        data-aos="fade-up"
+                    >
+                        We are skilled in and we offer diver services and
+                        strategies that will surely give your business a big
+                        boost.
+                    </p>
+                </div>
+                <div
+                    class="flex md:grid flex-col gap-3 md:grid-cols-2 lg:grid-cols-3"
+                    id="services-links"
+                >
+                    {# fake #}
+                    {# {% card title="Hello world!", description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa optio necessitatibus quos consequuntur?", href="/contact", icon="bx-search-alt" %} #}
+                    {# {% for card in testService %}
+                        {% card title=card.title, description=card.description, href=card.href, icon=card.icon %}
+                    {% endfor %} #}
+                    {# fake #}
+                    {# get services from contentful #}
+                    {% for service in collections.contentfulServices %}
+                        {% card title=service.fields.title, description=service.fields.description, href=service.fields.slug, icon=service.fields.icon %}
+                    {% endfor %}
+                    {# get services from contentful #}
+                </div>
+                <div class="mt-10 text-center" data-aos="fade-in">
+                    <a
+                        href="/service/"
+                        class="py-3 px-6 bg-phosBlue rounded-3xl text-white text-pbase md:text-base font-semibold hover:shadow-xl"
+                        >View more of our services</a
+                    >
+                </div>
+            </div>
+        </section>
+        <!-- services section ends -->

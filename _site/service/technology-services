@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Experience the cutting-edge wonders of our mobile app development, web development, data analysis, and unrivaled cyber security. We redefine the very essence of IT outsourcing.">
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css" />
+     <link rel="stylesheet" href="/assets/css/tailwind.css">
+
+        <!-- box icon -->
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+        <!-- ==========================AOS========================= -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <!-- ==========================AOS========================= -->
+        <!-- swiper js -->
+        <script src="/assets/js/swiper-bundle.min.js" type="module" defer></script>
+
+        <script type="module" src="/assets/js/app.js" defer></script>
+    <title></title>
+</head>
+<body>
+    
+<div class="max-w-7xl mx-auto relative bg-gray-900">
+
+            <nav class="flex items-center justify-between lg:justify-start top-0 left-0 z-[1000] w-full px-5 md:px-10 py-5 bg-gray-950 fixed"
+                id="nav"
+            >
+                <div class="mr-20">
+    <span class="">
+        <img
+            src="/assets/images/phos-logo-open.png"
+            alt="Phos consults logo"
+            class="w-[230px]" />
+    </span>
+</div>
+<div
+    class="flex flex-col lg:flex-row items-center justify-between w-full absolute top-[75px] -left-[100%] bg-gray-800 lg:relative lg:left-auto lg:top-auto lg:bg-transparent transition-all duration-300 ease-in"
+    id="navbar-links">
+    <ul
+        class="flex flex-col lg:flex-row items-center space-x-0 lg:space-x-7 w-full lg:w-full">
+        <li class="w-full lg:w-auto text-center">
+            <a
+                href="/"
+                class="nav-links nav-active w-full text-center py-2 lg:py-0 block md:inline-block"
+                id="index"
+                >Home</a
+            >
+        </li>
+        <li class="w-full lg:w-auto text-center">
+            <a
+                href="/about/"
+                class="nav-links w-full text-center py-2 lg:py-0 block md:inline-block"
+                id="about"
+                >About</a
+            >
+        </li>
+        <li class="w-full lg:w-auto text-center">
+            <a
+                href="/service/"
+                class="nav-links w-full text-center py-2 lg:py-0 block md:inline-block"
+                id="service"
+                >Services</a
+            >
+        </li>
+        <li class="w-full lg:w-auto text-center">
+            <a
+                href="/articles/"
+                class="nav-links w-full text-center py-2 lg:py-0 block md:inline-block"
+                id="articles"
+                >Articles</a
+            >
+        </li>
+        <li class="w-full lg:w-auto text-center">
+            <a
+                href="/contact/"
+                class="nav-links w-full text-center py-2 lg:py-0 block md:inline-block"
+                id="contact"
+                >Contact</a
+            >
+        </li>
+        <li class="w-full lg:w-auto text-center">
+            <a
+                href="/pricing/"
+                class="nav-links w-full text-center py-2 lg:py-0 block md:inline-block"
+                id="pricing"
+                >Pricing</a
+            >
+        </li>
+    </ul>
+    <div class="flex flex-col lg:flex-row lg:space-x-10 w-full lg:justify-end">
+        <span class="">
+            <a
+                href="mailto:info@phosconsults.com"
+                class="text-amber-300 font-medium text-pbase w-full text-center py-2 md:py-0 block md:inline-block"
+                >info@phosconsults.com</a
+            >
+        </span>
+        <div class="flex gap-3 items-center justify-center lg:justify-end py-4 lg:py-0">
+            <span>
+                <a
+                    href="https://www.linkedin.com/company/tosingodwin-consulting/"
+                    class="topbar-links"
+                    target="_blank">
+                    <i class="bx bxl-linkedin"></i>
+                </a>
+            </span>
+            <span>
+                <a
+                    href="https://www.instagram.com/phosconsults/"
+                    class="topbar-links"
+                    target="_blank">
+                    <i class="bx bxl-instagram"></i>
+                </a>
+            </span>
+            <span>
+                <a
+                    href="https://call.whatsapp.com/video/Ju4WJrRkhNIH4zkTWOTyUr"
+                    class="topbar-links"
+                    target="_blank">
+                    <i class="bx bxl-whatsapp"></i>
+                </a>
+            </span>
+            <span>
+                <a
+                    href="https://twitter.com/phosconsults"
+                    class="topbar-links"
+                    target="_blank">
+                    <i class="bx bxl-twitter"></i>
+                </a>
+            </span>
+        </div>
+    </div>
+</div>
+<div class="space-y-[3.5px] transition block lg:hidden cursor-pointer" id="menu">
+    <div class="w-[15px] h-[2.5px] bg-gray-50 rounded-md block"></div>
+    <div class="w-[20px] h-[2.5px] bg-gray-50 rounded-md block"></div>
+    <div class="w-[25px] h-[2.5px] bg-gray-50 rounded-md block"></div>
+</div>
+            </nav>
+</div>
+
+
+
+    
+
+<main
+            class="w-full bg-white mt-[75px] lg:mt-[90px] max-w-[1400px] mx-auto relative"
+            id="header"
+        >
+            
+            <div class="px-5 md:p-10 bg-gray-50 py-10"> <!--  lg:ml-60  -->
+                <div class="max-w-4xl mx-auto">
+                    <h1
+                        class="text-2xl lg:text-3xl font-bold text-center uppercase"
+                    >
+                        Technology Services
+                    </h1>
+                    <div
+                        class="w-[90%] mx-auto aspect-[16_/_8] bg-gray-200 mt-6 overflow-hidden"
+                    >
+                        <img
+                            src="//images.ctfassets.net/h4ger8mte7g9/m4T5pSzsWtdIAsqlzcE3E/186f51bb89601e9b5f42b8562c464f75/istockphoto-1344939844-1024x1024.jpg"
+                            alt=""
+                            class="object-cover w-full h-full"
+                        />
+                    </div>
+                    <div class="mt-10 lg:w-[90%] mx-auto">
+                        <p class="text-sm md:pbase font-medium lg:text-base">
+                            In today&#39;s business landscape, technology plays a critical role in the success of any organization.
+At our consulting company, we understand that businesses need reliable and efficient IT systems to operate at peak performance.
+
+That&#39;s why we offer a range of IT services designed to help businesses of all sizes and industries optimize their technology infrastructure.
+                        </p>
+                        <p
+                            class="font-bold text-base md:text-xl text-phosBlue mb-3 mt-5"
+                        >
+                            Our IT services cover a wide range of areas, including:
+                        </p>
+                        
+                        <div class="prose max-w-none">
+                            <ul><li><h4>Cybersecurity</h4><p>We can help you identify and mitigate cybersecurity threats, ensuring that your sensitive data and systems are protected from unauthorized access.</p></li><li><h4>Digital marketing services</h4><p>We help businesses of all sizes reach and engage their target audience online. We offer a range of services, including search engine optimization (SEO), pay-per-click (PPC) advertising, social media marketing, email marketing, and content marketing.</p></li><li><h4>IT Consulting</h4><p>Our team can provide expert guidance on IT strategy, technology selection, and project management to help you make informed decisions about your technology investments.</p></li><li><h4>Website Design</h4><p>We have expertise in creating visually stunning, user-friendly websites that help businesses stand out from the competition. We take a collaborative approach to website design, working closely with our clients to understand their brand, target audience, and goals.</p></li><li><h4>Technical Support</h4><p>We offer comprehensive technical support services to ensure that your systems are running smoothly and that any issues are addressed promptly.</p></li></ul><p></p>
+                        </div>
+                        <p
+                            class="text-sm md:pbase font-medium lg:text-base mb-3"
+                        >
+                            
+                        </p>
+                        <p class="mt-3">
+                            <a
+                                href="/contact/"
+                                class="text-sm md:pbase font-medium lg:text-base text-phosBlue underline hover:text-gray-900"
+                            >
+                                Contact us today to learn more about our IT                                 services.
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+</main>
+    <!-- footer section starts -->
+        <footer class="bg-gray-950 mx-auto py-10 md:pt-20 md:pb-7" id="footer">
+            <div
+                class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between mb-10 md:mb-20 px-3 md:px-10"
+            >
+                <div class="mb-4 w-full md:w-auto">
+                    <img
+                        src="/assets/images/phos-logo-open.png"
+                        class="h-10 md:h-20 mx-auto md:mx-0 opacity-80"
+                        alt=""
+                    />
+                </div>
+                <form class="w-[90%] md:w-auto mx-auto md:mx-0">
+                    <label
+                        class="text-white text-sm lg:text-pbase mb-2 md:mb-0"
+                        for="newsletter"
+                    >
+                        Join us today, let us help you grow your business.
+                    </label>
+                    <div
+                        class="flex flex-row justify-start md:justify-normal w-full md:w-[350px] lg:w-[600px] bg-white rounded-md items-start overflow-hidden h-9 md:h-10"
+                    >
+                        <input
+                            type="text"
+                            class="focus:outline-none border-0 flex-1 h-9 md:h-10 p-5"
+                            id="newsletter"
+                        />
+                        <button
+                            type="text"
+                            class="text-center border-0 focus:outline-none h-9 md:h-10 flex items-center justify-center px-3"
+                        >
+                            <i
+                                class="bx bx-send text-black text-2xl -rotate-45 text-center font-semibold"
+                            ></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div
+                class="mx-auto max-w-[1500px] px-3 md:px-10 flex flex-col md:grid md:grid-cols-3 lg:flex lg:flex-row justify-between space-y-12 md:space-y-0 md:gap-y-5 lg:gap-y-0 md:space-x-10"
+            >
+                <div class="flex flex-col items-center md:block">
+                    <p
+                        class="font-semibold text-base text-white capitalize mb-5"
+                    >
+                        Contact us
+                    </p>
+                    <ul class="text-center md:text-left">
+                        <li class="w-full md:w-auto text-gray-400">
+                            <a
+                                href="tel:+234-705-138-1049"
+                                class="footer-links hover:text-gray-50 transition-all duration-150"
+                            >
+                                <i class="bx bx-phone text-xl mr-3 mt-1"></i>
+                                <span
+                                    class="hover:underline transition-all duration-150"
+                                    >+234 (0) 705 138 1049</span
+                                ></a
+                            >
+                        </li>
+                        <li class="w-full md:w-auto text-gray-400">
+                            <a
+                                href="mailto:info@phosconsults.com"
+                                class="footer-links hover:text-gray-50 transition-all duration-150"
+                            >
+                                <i class="bx bx-envelope text-xl mr-3 mt-1"></i>
+                                <span
+                                    class="hover:underline transition-all duration-150"
+                                    >info@phosconsults.com</span
+                                ></a
+                            >
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex flex-col items-center md:block">
+                    <p
+                        class="font-semibold text-base text-white capitalize mb-5"
+                    >
+                        Phos Consults Ltd.
+                    </p>
+                    <ul class="text-center md:text-left">
+                        
+                            <li class="w-full md:w-auto text-gray-400 py-2">
+                                <a
+                                    href="/service/project-management"
+                                    class="footer-links2 hover:text-gray-50 transition-all duration-150"
+                                >
+                                    <span
+                                        class="hover:underline transition-all duration-150"
+                                        >Project Management</span
+                                    ></a
+                                >
+                            </li>
+                        
+                            <li class="w-full md:w-auto text-gray-400 py-2">
+                                <a
+                                    href="/service/technology-services"
+                                    class="footer-links2 hover:text-gray-50 transition-all duration-150"
+                                >
+                                    <span
+                                        class="hover:underline transition-all duration-150"
+                                        >Technology Services</span
+                                    ></a
+                                >
+                            </li>
+                        
+                            <li class="w-full md:w-auto text-gray-400 py-2">
+                                <a
+                                    href="/service/human-resource-management"
+                                    class="footer-links2 hover:text-gray-50 transition-all duration-150"
+                                >
+                                    <span
+                                        class="hover:underline transition-all duration-150"
+                                        >Human resource management</span
+                                    ></a
+                                >
+                            </li>
+                        
+                    </ul>
+                </div>
+                <div class="flex flex-col items-center md:block">
+                    <p
+                        class="font-semibold text-base text-white capitalize mb-5"
+                    >
+                        Quick Links
+                    </p>
+                    <ul class="text-center md:text-left">
+                        <li class="w-full md:w-auto text-gray-400 py-2">
+                            <a
+                                href="/"
+                                class="footer-links2 hover:text-gray-50 transition-all duration-150"
+                            >
+                                <span
+                                    class="hover:underline transition-all duration-150"
+                                    >Home</span
+                                ></a
+                            >
+                        </li>
+                        <li class="w-full md:w-auto text-gray-400 py-2">
+                            <a
+                                href="/about/"
+                                class="footer-links2 hover:text-gray-50 transition-all duration-150"
+                            >
+                                <span
+                                    class="hover:underline transition-all duration-150"
+                                    >About</span
+                                ></a
+                            >
+                        </li>
+                        <li class="w-full md:w-auto text-gray-400 py-2">
+                            <a
+                                href="/service/"
+                                class="footer-links2 hover:text-gray-50 transition-all duration-150"
+                            >
+                                <span
+                                    class="hover:underline transition-all duration-150"
+                                    >services</span
+                                ></a
+                            >
+                        </li>
+                        <li class="w-full md:w-auto text-gray-400 py-2">
+                            <a
+                                href="/articles/"
+                                class="footer-links2 hover:text-gray-50 transition-all duration-150"
+                            >
+                                <span
+                                    class="hover:underline transition-all duration-150"
+                                    >Articles</span
+                                ></a
+                            >
+                        </li>
+                        <li class="w-full md:w-auto text-gray-400 py-2">
+                            <a
+                                href="/contact/"
+                                class="footer-links2 hover:text-gray-50 transition-all duration-150"
+                            >
+                                <span
+                                    class="hover:underline transition-all duration-150"
+                                    >Contact</span
+                                ></a
+                            >
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex flex-col items-center md:block">
+                    <p
+                        class="font-semibold text-base text-white capitalize mb-5"
+                    >
+                        Address
+                    </p>
+                    <div
+                        class="footer-links text-gray-400 text-center md:text-left flex flex-col items-center md:flex-row md:items-start"
+                    >
+                        <i
+                            class="bx bx-current-location text-xl mr-3 mt-1 text-phosOrange"
+                        ></i>
+                        <div class="">
+                            <p
+                                class="font-semibold text-base text-gray-200"
+                                class=""
+                            >
+                                Head Office:
+                            </p>
+                            <span class="hover:text-gray-100 hover:underline"
+                                >16, Buckingham street, Portsmouth, UK.</span
+                            >
+                        </div>
+                    </div>
+                    <div
+                        class="footer-links text-gray-400 text-center md:text-left flex flex-col items-center md:flex-row md:items-start"
+                    >
+                        <i
+                            class="bx bx-current-location text-xl mr-3 mt-1 text-phosOrange"
+                        ></i>
+                        <div class="">
+                            <p
+                                class="font-semibold text-base text-gray-200"
+                                class=""
+                            >
+                                Branch Office:
+                            </p>
+                            <span class="hover:text-gray-100 hover:underline"
+                                >Top floor DSTV Buildiing, Liberty road, Off
+                                ring road Ibadan.</span
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center md:block">
+                    <p
+                        class="font-semibold text-base text-white capitalize mb-5"
+                    >
+                        Social media
+                    </p>
+                    <div
+                        class="flex gap-3 items-center justify-center md:justify-start text-gray-50 mt-3"
+                    >
+                        <span>
+                            <a
+                                href="https://www.linkedin.com/company/tosingodwin-consulting/"
+                                class="text-gray-400 text-xl md:text-2xl hover:text-gray-50 transition duration-200"
+                                target="_blank"
+                            >
+                                <i class="bx bxl-linkedin"></i>
+                            </a>
+                        </span>
+                        <span>
+                            <a
+                                href="https://www.instagram.com/phosconsults/"
+                                class="text-gray-400 text-xl md:text-2xl hover:text-gray-50 transition duration-200"
+                                target="_blank"
+                            >
+                                <i class="bx bxl-instagram"></i>
+                            </a>
+                        </span>
+                        <span>
+                            <a
+                                href="https://call.whatsapp.com/video/Ju4WJrRkhNlH4zkTWOTyUr"
+                                class="text-gray-400 text-xl md:text-2xl hover:text-gray-50 transition duration-200"
+                                target="_blank"
+                            >
+                                <i class="bx bxl-whatsapp"></i>
+                            </a>
+                        </span>
+                        <span>
+                            <a
+                                href="https://twitter.com/phosconsults"
+                                class="text-gray-400 text-xl md:text-2xl hover:text-gray-50 transition duration-200"
+                                target="_blank"
+                            >
+                                <i class="bx bxl-twitter"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <p
+                class="mt-10 text-center text-sm text-gray-400 pt-10 border-t-2 border-t-gray-400"
+            >
+                @ <span id="year">2023</span> Phos Consults. All rights
+                reserved.
+            </p>
+        </footer>
+        <!-- footer section ends -->
+        <!-- scroll to top -->
+        <div class="scroll-smooth bg-transparent" id="scroll-top">
+            <a
+                class="rounded-full w-10 h-10 md:w-14 md:h-14 bg-phosOrange text-white fixed right-[10vw] md:right-[15vw] bottom-[10vh] md:bottom-[15vh] flex items-center justify-center transition-all duration-300"
+                href="#header"
+            >
+                <i class="bx bx-chevrons-up text-white text-xl md:text-3xl"></i>
+            </a>
+        </div>
+    <script>
+            AOS.init({
+                offset: 200,
+                delay: 10,
+                duration: 800,
+                easing: "ease-in-out",
+                once: true,
+            });
+    </script>
+    <script src="/assets/js/form.js/"></script>
+</body>
+</html>
+
+    

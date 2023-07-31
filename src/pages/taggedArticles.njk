@@ -1,0 +1,12 @@
+{# ---
+pagination:
+    data: collections.articleCategories
+    size: 1
+    alias: articles
+permalink: "/articles/{{ articles.category | slug }}/"
+layout: "baseOthers.njk"
+---
+
+{% for item in collections.articleCategories %}
+    <h2>{{ item.fields.title }}</h2>
+{% endfor %} #}
