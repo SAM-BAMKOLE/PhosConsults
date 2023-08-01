@@ -7,7 +7,7 @@ const Navbar = ({ item }) => {
                 <img
                     src="${"/assets/images/phos-logo-open.png"}"
                     alt="Phos consults logo"
-                    class="w-[100px]" />
+                    class="w-[200px]" />
             </span>
         </div>
         <div
