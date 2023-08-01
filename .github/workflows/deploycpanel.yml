@@ -7,6 +7,11 @@ jobs:
     web-deploy:
         name: FTP-Deploy-Action
         runs-on: ubuntu-latest
+
+        env:
+            CONTENT_ACCESS_TOKEN: ${{ secrets.CONTENT_ACCESS_TOKEN }}
+            CONTENT_SPACE_ID: ${{ secrets.CONTENT_SPACE_ID }}
+
         steps:
             - name: Checkout code
               uses: actions/checkout@v2
