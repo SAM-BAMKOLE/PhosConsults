@@ -30,7 +30,7 @@
         <script src="/assets/js/swiper-bundle.min.js" type="module" defer></script>
 
         <script type="module" src="/assets/js/app.js" defer></script>
-            <title>Articles | Find latest articles that are sure to keep you captivated here</title>
+            <title></title>
 </head>
 <body>
     
@@ -156,157 +156,59 @@
 
 
     
-<header
-            class="w-full lg:h-[75vh] md:max-h-[500px] pt-14 pb-10 overflow-hidden bg-pattern2 mt-20 lg:mt-0"
+
+<main
+            class="w-full bg-white mt-[75px] lg:mt-[90px] max-w-[1400px] mx-auto relative"
             id="header"
         >
-            <div
-                class="w-full h-full relative flex flex-col lg:flex-row lg:items-center lg:justify-between max-w-6xl mx-auto px-5 lg:px-0 lg:gap-20"
-            >
-                <div class="min-h-28">
-                    <div class="hero2-content lg:max-w-[100%]">
-                        <h2 class="header2-h1">
-                            Read Latest articles
-                        </h2>
-                        <p class="header2-p">
-                            The very latest from us with deep insights, thoughts and resources on building your Brand
+            
+            <div class="px-5 md:p-10 bg-gray-50 py-10"> <!--  lg:ml-60  -->
+                <div class="max-w-4xl mx-auto">
+                    <h1
+                        class="text-2xl lg:text-3xl font-bold text-center uppercase"
+                    >
+                        Research and Data Collection
+                    </h1>
+                    <div
+                        class="w-[90%] mx-auto aspect-[16_/_8] bg-gray-200 mt-6 overflow-hidden"
+                    >
+                        <img
+                            src="//images.ctfassets.net/h4ger8mte7g9/3xo3i9CUxdlvBxTP0qBIrG/0a45843448d8208b61693b0e1107b979/data.jpg"
+                            alt=""
+                            class="object-cover w-full h-full"
+                        />
+                    </div>
+                    <div class="mt-10 lg:w-[90%] mx-auto">
+                        <p class="text-sm md:pbase font-medium lg:text-base">
+                            We are dedicated to providing our clients with exceptional research and data collection services.
+
+At our firm, we understand the importance of accurate and up-to-date information for making informed business decisions. That&#39;s why we offer a comprehensive research and data collection service to help our clients gather the information they need to make strategic decisions.
                         </p>
-                        <!-- links -->
-                        <div
-                            class="flex justify-between md:justify-start md:gap-7 items-center text-pbase lg:text-base w-full mt-4"
+                        <p
+                            class="font-bold text-base md:text-xl text-phosBlue mb-3 mt-5"
                         >
+                            Our services include:
+                        </p>
+                        
+                        <div class="prose max-w-none">
+                            <p>We specialize in providing comprehensive research and data collection services to help businesses and organizations make informed decisions. Our team of expert researchers is dedicated to providing our clients with the highest quality data and analysis.</p><p>We understand that collecting and analyzing data can be a daunting task, which is why we offer a range of research services to help our clients achieve their goals.</p><ul><li><h4>Market Research</h4><p>We conduct thorough market research to help businesses identify their target market and understand their customers&#39; needs and preferences. Our market research services also help our clients to stay ahead of their competitors by keeping track of the latest industry trends and developments.</p></li><li><h4>Customer Research</h4><p>We provide our clients with insights into their customers&#39; behavior, opinions, and preferences. This information is crucial for businesses looking to improve their products and services, tailor their marketing strategies, and build better customer relationships.</p></li><li><h4>Data Collection and Analysis</h4><p>We collect, clean, and analyze data from various sources, including surveys, interviews, and online databases. Our team uses the latest tools and techniques to ensure accurate and reliable data analysis, providing our clients with actionable insights.</p></li><li><h4>Industry Research</h4><p>We conduct comprehensive industry research to help businesses understand the competitive landscape, identify growth opportunities, and stay up-to-date with the latest industry trends and regulations.</p></li></ul><p></p><p>At our consulting firm, we believe that data-driven decision-making is the key to success in today&#39;s competitive business environment. Our research and data collection services provide our clients with the insights they need to make informed decisions and achieve their business objectives.</p>
+                        </div>
+                        <p
+                            class="text-sm md:pbase font-medium lg:text-base mb-3"
+                        >
+                            
+                        </p>
+                        <p class="mt-3">
                             <a
                                 href="/contact/"
-                                class="py-3 lg:py-4 px-6 lg:px-8 bg-phosBlue2 hover:bg-phosBlue transition-all duration-300 border border-gray-50 rounded-[35px] text-gray-50 text-lg font-semibold"
-                                >Contact Us</a
+                                class="text-sm md:pbase font-medium lg:text-base text-phosBlue underline hover:text-gray-900"
                             >
-                            <a
-                                href="/service/"
-                                class="py-3 lg:py-4 px-6 lg:px-8 bg-gray-200 hover:bg-gray-300 transition-all rounded-[35px] text-grey-950 text-lg font-semibold shadow-md"
-                                >Services</a
-                            >
-                        </div>
-                        <!-- links end -->
+                                Contact us today to learn more about how we can help your business succeed.
+                            </a>
+                        </p>
                     </div>
                 </div>
             </div>
-</header>
-<!-- header section ends -->
-<main class="py-10 md:pb-20 lg:pt-0 px-5 md:px-10 w-full bg-gray-50 max-w-[1400px] mx-auto relative">
-    <div class="">
-         <!-- | reverse -->
-        <a href="/articles/improving-emotional-intelligence">
-            <div class="flex flex-col lg:grid lg:grid-cols-2 lg:gap-7 p-4 rounded-sm shadow-md max-w-2xl lg:max-w-none mx-auto bg-white">
-                <img src="//images.ctfassets.net/h4ger8mte7g9/401F5LLSPh9qhr0KJAkHLa/0fe2e505216d69645c09a3a7d460ddc6/emotion.jpg" alt=""
-                    class="aspect-video object-cover overflow-hidden rounded" />
-                <div class="px-0 py-4 lg:px-4">
-                    <div class="flex gap-5 items-center">
-                        <span class="text-phosBlue font-bold">Latest:</span>
-                        
-                            <span class="bg-phosBlue text-white font-normal px-3 py-2 rounded-sm">article</span>
-                        
-                    </div>
-                    <h1 class="font-bold text-base md:text-md lg:text-2xl tracking-tight capitalize  mt-3">Improving Emotional Intelligence</h1>
-                    <div class="flex justify-between items-center mt-2">
-                        <h6 class="flex items-center gap-3">
-                            <img src="//images.ctfassets.net/h4ger8mte7g9/5z3XM3Uvrn1lUctqqOsQYx/eee311e77dd6047a914479a58ffd42f6/phos-logo-3.jpg" alt="author's pic"class="aspect-square w-10 rounded-full object-cover">
-                            Phos Consults Media
-                        </h6>
-                        <h6 class="">July 26, 2023</h6>
-                    </div>
-                    <p class="mt-4 lg:mt-8 text-base px-0 lg:px-5">
-                        Perhaps, we all know someone who listens well, either at work or in our personal lives. They always seem to know just what to say and how to say it so that we aren&#39;t offended or irritated, regardless of the situation we are in. Even if we don&#39;t find ...
-                    </p>
-                </div>
-            </div>
-        </a>
-    </div>
-    <div class="grid lg:grid-cols-4 gap-5 mt-10">
-        <div class="lg:col-span-3 bg-white rounded-sm p-3 shadow-md flex flex-col gap-4 lg:gap-0">
-            
-                
-                    <a href="/articles/the-rise-of-soft-skills-as-the-new-power-skills">
-                        <div class="flex flex-col lg:grid lg:grid-cols-2 lg:gap-7 my-4 rounded-sm mx-auto bg-white">
-                            <img src="//images.ctfassets.net/h4ger8mte7g9/1K21C32cPmKfVOhOx0Oyon/ea948afd85c25763c1e1d5dc86d79a94/soft-skills.jpg" alt=""
-                                class="aspect-video object-cover overflow-hidden rounded" />
-                            <div class="px-0 lg:px-2 pt-3 lg:pt-0">
-                                <div class="flex gap-5 items-center">
-                                    
-                                        
-                                            <span class="bg-phosBlue text-[13px] text-white font-normal p-2 rounded-sm">article</span>
-                                        
-                                            <span class="bg-phosBlue text-[13px] text-white font-normal p-2 rounded-sm">featured</span>
-                                        
-                                    
-                                    
-                                    
-                                    
-                                    
-                                </div>
-                                <h2 class="font-bold text-pbase lg:text-base tracking-tight capitalize  mt-2">The Rise Of Soft Skills As The New Power Skills.</h2>
-                                <div class="flex justify-between items-center mt-2">
-                                    <h6 class="flex items-center gap-3 text-pbase">
-                                        <img src="//images.ctfassets.net/h4ger8mte7g9/5z3XM3Uvrn1lUctqqOsQYx/eee311e77dd6047a914479a58ffd42f6/phos-logo-3.jpg" alt="author's pic"class="aspect-square w-8 rounded-full object-cover">
-                                        Phos Consults Media
-                                    </h6>
-                                    <h6 class="text-[14px]">July 26, 2023</h6>
-                                </div>
-                                 <p class="mt-2 lg:mt-4 text-pbase px-0 lg:px-3">
-                                    Perhaps, we all know someone who listens well, either at work or in our personal lives. They always seem to know just what to say and how to say it so...
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    
-                
-                    <a href="/articles/the-key-makeup-of-a-winning-cv">
-                        <div class="flex flex-col lg:grid lg:grid-cols-2 lg:gap-7 my-4 rounded-sm mx-auto bg-white">
-                            <img src="//images.ctfassets.net/h4ger8mte7g9/1fQWzmAqyDHniO16uHzmaE/aa768f46c94b4ac1a8bcc209656ee2d5/confident-afro-american-business-woman-working-office-business-concept.jpg" alt=""
-                                class="aspect-video object-cover overflow-hidden rounded" />
-                            <div class="px-0 lg:px-2 pt-3 lg:pt-0">
-                                <div class="flex gap-5 items-center">
-                                    
-                                        <span class="bg-phosBlue text-[13px] text-white font-normal p-2 rounded-sm">article</span>
-                                    
-                                    
-                                    
-                                </div>
-                                <h2 class="font-bold text-pbase lg:text-base tracking-tight capitalize  mt-2">The Key Makeup Of A Winning CV: Your Shortcut to Having the Best CV</h2>
-                                <div class="flex justify-between items-center mt-2">
-                                    <h6 class="flex items-center gap-3 text-pbase">
-                                        <img src="//images.ctfassets.net/h4ger8mte7g9/5z3XM3Uvrn1lUctqqOsQYx/eee311e77dd6047a914479a58ffd42f6/phos-logo-3.jpg" alt="author's pic"class="aspect-square w-8 rounded-full object-cover">
-                                        Phos Consults Media
-                                    </h6>
-                                    <h6 class="text-[14px]">July 25, 2023</h6>
-                                </div>
-                                 <p class="mt-2 lg:mt-4 text-pbase px-0 lg:px-3">
-                                    Perhaps, we all know someone who listens well, either at work or in our personal lives. They always seem to know just what to say and how to say it so...
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                    
-                
-            
-        </div>
-        <div class="col-span-1 bg-white rounded-sm p-3 shadow-md hidden lg:block">
-            <h3 class="border-b border-b-gray-200 text-phosBlue pb-3 font-bold text-xl">Categories</h3>
-            <ul class="divide-y-[1px] divide-gray-100">
-                
-                    <li class="h-10"><a href="/articles/article/" class="text-gray-500 h-full  flex items-center category" id="article">article</a></li>
-                
-                    <li class="h-10"><a href="/articles/featured/" class="text-gray-500 h-full  flex items-center category" id="featured">featured</a></li>
-                
-                    <li class="h-10"><a href="/articles/value/" class="text-gray-500 h-full  flex items-center category" id="value">value</a></li>
-                
-            </ul>
-        </div>
-    </div>
-    
-        <div class="mx-auto mt-8 flex items-center justify-center gap-3">
-            <a href="/articles/1/" class="px-4 md:px-8 py-2 md:py-3 bg-gray-200 border-[1px] border-gray-500 rounded-sm">View all articles &#187;</a>
-        </div>
-    
 </main>
     <!-- footer section starts -->
         <footer class="bg-gray-950 mx-auto py-10 md:pt-20 md:pb-7" id="footer">
