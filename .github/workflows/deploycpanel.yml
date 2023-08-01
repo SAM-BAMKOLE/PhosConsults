@@ -3,6 +3,10 @@ on:
     push:
         branches:
             - main
+
+env:
+    NAME: "contenful tokens"
+
 jobs:
     web-deploy:
         name: FTP-Deploy-Action
@@ -15,11 +19,6 @@ jobs:
         steps:
             - name: Checkout code
               uses: actions/checkout@v2
-
-            - name: Install dependencies and build
-              run: |
-                  npm install
-                  npm run build
 
             - name: Sync files
               uses: SamKirkland/FTP-Deploy-Action@4.3.0
