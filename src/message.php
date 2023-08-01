@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if(!empty($firstname) && !empty($lastname) && !empty($email) && !empty($phone) && !empty($message)) {
         if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
             $receiver = "samuelolagoroye81@gmail.com"
-            $subject = "From: $firstname $lastname <$email>";
+            $subject = "From: $firstname <$email>";
             $body = "Name: $firstname $lastname\nEmail: $email\nPhone: $phone\nInquiry: $options\nMessage: $message";
             $sender = "From $email";
             if(mail($receiver, $subject, $body, $sender)) {
