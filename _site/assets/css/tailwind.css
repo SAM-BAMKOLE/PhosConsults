@@ -1775,12 +1775,12 @@ html {
   width: 2rem;
 }
 
-.w-\[100px\]{
-  width: 100px;
-}
-
 .w-\[15px\]{
   width: 15px;
+}
+
+.w-\[200px\]{
+  width: 200px;
 }
 
 .w-\[20px\]{
