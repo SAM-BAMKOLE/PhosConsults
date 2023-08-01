@@ -4,15 +4,15 @@ on:
         branches:
             - main
 jobs:
-    FTP-Deploy-Action:
+    web-deploy:
         name: FTP-Deploy-Action
         runs-on: ubuntu-latest
         steps:
             - name: Checkout code
-              uses: actions/checkout@v2.1.0
+              uses: actions/checkout@v2
 
-            - name: FTP-Deploy-Action
-              uses: SamKirkland/FTP-Deploy-Action@4.0.0
+            - name: Sync files
+              uses: SamKirkland/FTP-Deploy-Action@4.3.0
               with:
                   server: ftp.phosconsults.com
                   username: phosconsultsgithub@phosconsults.com
