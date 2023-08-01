@@ -18,4 +18,4 @@ jobs:
                   username: phosconsultsgithub@phosconsults.com
                   password: mBcx;F5I3nsz
                   local-dir: ./_site/
-                  server-dir: /home2/phosconst/public_html/
+                  server-dir: /public_html/
