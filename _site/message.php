@@ -1,4 +1,5 @@
 <?php 
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $firstname = $_POST['firstname'];
     $lastname = $_POST['lastname'];
     $phone = $_POST['phone'];
@@ -23,4 +24,5 @@
     } else {
         echo "Please fill the form correctly!"
     }
+}
 ?>
