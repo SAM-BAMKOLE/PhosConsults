@@ -3278,6 +3278,10 @@ html {
     margin-top: 90px;
   }
 
+  .lg\:mt-20{
+    margin-top: 5rem;
+  }
+
   .lg\:block{
     display: block;
   }
@@ -3320,6 +3324,10 @@ html {
 
   .lg\:w-full{
     width: 100%;
+  }
+
+  .lg\:w-\[250px\]{
+    width: 250px;
   }
 
   .lg\:max-w-\[100\%\]{
