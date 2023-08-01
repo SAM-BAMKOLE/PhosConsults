@@ -3266,6 +3266,10 @@ html {
     margin-top: 0px;
   }
 
+  .lg\:mt-20{
+    margin-top: 5rem;
+  }
+
   .lg\:mt-4{
     margin-top: 1rem;
   }
@@ -3276,10 +3280,6 @@ html {
 
   .lg\:mt-\[90px\]{
     margin-top: 90px;
-  }
-
-  .lg\:mt-20{
-    margin-top: 5rem;
   }
 
   .lg\:block{
@@ -3306,6 +3306,10 @@ html {
     height: 75vh;
   }
 
+  .lg\:w-\[250px\]{
+    width: 250px;
+  }
+
   .lg\:w-\[400px\]{
     width: 400px;
   }
@@ -3324,10 +3328,6 @@ html {
 
   .lg\:w-full{
     width: 100%;
-  }
-
-  .lg\:w-\[250px\]{
-    width: 250px;
   }
 
   .lg\:max-w-\[100\%\]{
