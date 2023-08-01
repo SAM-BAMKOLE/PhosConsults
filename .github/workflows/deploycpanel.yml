@@ -25,7 +25,7 @@ jobs:
             - name: Install dependencies and build
               run: |
                   npm install
-                  npm start
+                  npm run build
 
             - name: Sync files
               uses: SamKirkland/FTP-Deploy-Action@4.3.0
