@@ -3330,6 +3330,10 @@ html {
     width: 100%;
   }
 
+  .lg\:w-\[230px\]{
+    width: 230px;
+  }
+
   .lg\:max-w-\[100\%\]{
     max-width: 100%;
   }
