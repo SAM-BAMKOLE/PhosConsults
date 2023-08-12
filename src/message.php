@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if(!empty($firstname) && !empty($lastname) && !empty($email) && !empty($phone) && !empty($message)) {
         if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
-            $receiver = "samuelolagoroye81@gmail.com";
+            $receiver = "info@phosconsults.com";
             $subject = "$options";
             $body = "Name: $firstname $lastname\nEmail: $email\nPhone: $phone\nInquiry: $options\nMessage: $message";
             $sender = "From $email";
