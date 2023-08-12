@@ -1,0 +1,20 @@
+image: node:14
+
+stages:
+    - build
+    - deploy
+
+web-deploy:
+    stage: deploy
+    script:
+        - npm install
+        - npm run build
+        - apt-get update && apt-get install -y lftp
+        - lftp -e "open -u phosconsultsgithub@phosconsults.com,mBcx;F5I3nsz ftp.phosconsults.com; mirror -R ./_site/ /public_html/; quit"
+    only:
+        - main
+
+variables:
+    FTP_SERVER: "ftp.phosconsults.com"
+    FTP_USERNAME: $FTP_USERNAME
+    FTP_PASSWORD: $FTP_PASSWORD

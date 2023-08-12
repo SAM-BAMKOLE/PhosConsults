@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if(!empty($firstname) && !empty($lastname) && !empty($email) && !empty($phone) && !empty($message)) {
         if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
-            $receiver = "samuelolagoroye81@gmail.com"
+            $receiver = "samuelolagoroye81@gmail.com";
             // $subject = "From: $firstname $lastname <$email>";
             $body = "Name: $firstname $lastname\nEmail: $email\nPhone: $phone\nInquiry: $options\nMessage: $message";
             $sender = "From $email";
@@ -19,10 +19,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 echo "Sorry, failed to send your message!";
             }
         } else {
-        echo "Please enter a valid email!"
-    }
+        echo "Please enter a valid email!";
+        }
     } else {
-        echo "Please fill the form correctly!"
+        echo "Please fill the form correctly!";
     }
 }
 ?>
