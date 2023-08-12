@@ -22,6 +22,12 @@ jobs:
             - name: Checkout code
               uses: actions/checkout@v2
 
+            - name: Make GitHub API request
+              run: |
+                  curl -H "Authorization: Bearer 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" \
+                          -H "User-Agent: MyGitHubApp" \
+                          https://api.github.com/repos/SAM-BAMKOLE/PhosConsults/dispatches
+
             - name: Install dependencies and build
               run: |
                   npm install
