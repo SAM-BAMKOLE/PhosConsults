@@ -24,7 +24,7 @@ jobs:
 
             - name: Make GitHub API request
               run: |
-                  curl -H "Authorization: Bearer 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" \
+                  curl -H "Authorization: Bearer $GITHUB_TOKEN" \
                           -H "User-Agent: MyGitHubApp" \
                           https://api.github.com/repos/SAM-BAMKOLE/PhosConsults/dispatches
 
