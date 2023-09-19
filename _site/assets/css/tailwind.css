@@ -3298,10 +3298,6 @@ html {
     display: none;
   }
 
-  .lg\:aspect-auto{
-    aspect-ratio: auto;
-  }
-
   .lg\:h-\[75vh\]{
     height: 75vh;
   }
@@ -3328,10 +3324,6 @@ html {
 
   .lg\:w-full{
     width: 100%;
-  }
-
-  .lg\:w-\[230px\]{
-    width: 230px;
   }
 
   .lg\:max-w-\[100\%\]{
