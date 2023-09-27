@@ -341,6 +341,73 @@
             </div>
         </header>
         <!-- header section ends -->
+        <div class="mx-auto max-w-7xl mt-5 px-3 md:px-10 flex flex-col-reverse md:grid md:grid-cols-2 md:items-center" id="training">
+            <div class="md:max-w-[400px] lg:max-w-[600px] md:mr-10">
+                <h2
+                        class="text-black font-bold text-[25px] md:text-[40px] text-center md:font-extrabold md:max-w-2xl">
+                        Business Strategy Training
+                    </h2>
+                    <p class="text-center text-gray-700 font-medium text-sm md:text-base mb-5 md:max-w-2xl mx-auto"
+                        id="services-paragraph">
+                        We're conducting a training throughout the weeks of October on Business Strategy. We would like you to be a part of this: 
+                    </p>
+                    <h4
+                        class="text-black font-bold text-[25px] lg:text-center md:text-[35px] md:font-extrabold md:max-w-2xl">
+                        Register Here
+                    </h4>
+                <div class="flex flex-col items-center justify-center mx-auto">
+                    
+                    <div class="w-full dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
+                        <div class="space-y-4 md:space-y-6">
+                            <form class="space-y-4 md:space-y-6" method="POST" action="/trainingForm.php">
+                                <div>
+                                    <label for="firstname" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Firstname</label>
+                                    <input type="text" name="firstname" id="firstname" placeholder="John" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required="true">
+                                </div>
+                                <div>
+                                    <label for="lastname" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Lastname</label>
+                                    <input type="text" name="lastname" id="lastname" placeholder="Smith" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required="true">
+                                </div>
+                                <div>
+                                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
+                                    <input type="email" name="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@company.com" required="true">
+                                </div>
+                                <div>
+                                    <label for="phone" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Phone number</label>
+                                    <input type="tel" name="phone" id="phone" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@company.com" required="true">
+                                </div>
+                                
+                                <div>
+                                    <label for="company" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Company you work for</label>
+                                    <input type="text" name="company" id="company" placeholder="••••••••" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required="true">
+                                </div>
+                                <div class="flex items-start space-x-5">
+                                    <div>
+                                    <input id="male" name="gender" aria-describedby="gender" type="radio" value="male" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800" checked>
+                                    <label for="male" class="font-light text-gray-500 dark:text-gray-300">Male</label>
+                                    </div>
+                                    <div>
+                                    <input id="female" name="gender" aria-describedby="gender" type="radio" value="female" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800">
+                                    <label for="female" class="font-light text-gray-500 dark:text-gray-300">Female</label>
+                                    </div>
+                                </div>
+                                
+                               <button
+                                    type="submit"
+                                    class="py-3 px-6 bg-phosBlue rounded-3xl text-white text-pbase font-semibold hover:shadow-xl"
+                                >
+                                    Send message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-10 lg:mt-0 relative overflow-hidden" id="about-content-right" data-aos="fade-in">
+                    <img src="/assets/images/BUSINESS STRATEGY TRAINING-1.jpg" alt=""
+                        class="w-full aspect-square object-cover mx-auto rounded-lg" />
+            </div>
+        </div>
         <!-- overview section -->
         <section class="bg-white mx-auto py-10 md:py-20" id="overview">
             <div class="mx-auto max-w-7xl px-3 md:px-10">
