@@ -35,17 +35,6 @@
             margin: 20px 0;
         }
 
-        .go-back {
-            padding: 6px;
-            border-radius: 15px;
-            background-color: #09067c;
-            color: #ffffff;
-            font-size: 18px;
-            margin-top: 30px;
-            width: 200px;
-            text-align: center;
-        }
-
         .success {
             color: #33cc33;
         }
@@ -69,7 +58,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if(!empty($firstname) && !empty($lastname) && !empty($email) && !empty($phone) && !empty($company)) {
         if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
             // info@phosconsults.com
-            $receiver = "samuelolagoroye81@gmail.com";
+            $receiver = "info@phosconsults.com";
             $subject = "$firstname $lastname would like to register for your upcoming training: \"Business Strategy Forum\"";
             $body = "<html>
                         <head>
@@ -144,7 +133,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
-    <p class='go-back'><a href='javascript:history.back()'>Go Back</a></p> <!-- Add Back button -->
     </div>
 </body>
 </html>
