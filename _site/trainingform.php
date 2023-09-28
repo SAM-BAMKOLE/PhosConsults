@@ -60,9 +60,66 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // info@phosconsults.com
             $receiver = "samuelolagoroye81@gmail.com";
             $subject = "$firstname $lastname would like to register for your upcoming training";
-            $body = "Name: $firstname $lastname\nEmail: $email\nPhone: $phone\nGender: $gender\nCompany: $company";
+            $body = "<html>
+                        <head>
+                            <style>
+                                body {
+                                    font-family: Arial, sans-serif;
+                                    background-color: #f0f0f0;
+                                    margin: 0;
+                                    padding: 0;
+                                }
+                                .container {
+                                    background-color: #fff;
+                                    border-radius: 10px;
+                                    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+                                    padding: 20px;
+                                    text-align: center;
+                                    max-width: 400px;
+                                    margin: 0 auto;
+                                }
+                                h1 {
+                                    color: #333;
+                                }
+                                ul {
+                                    list-style-type: none;
+                                    padding: 0;
+                                }
+                                li {
+                                    margin-bottom: 10px;
+                                }
+                            </style>
+                        </head>
+                        <body>
+                            <div class='container'>
+                                <h1>Registration Request</h1>
+                                <p>Dear Organizer,</p>
+                                <p>You have received a registration request from:</p>
+                                <ul>
+                                    <li><strong>Name:</strong> $firstname $lastname</li>
+                                    <li><strong>Email:</strong> $email</li>
+                                    <li><strong>Phone:</strong> $phone</li>
+                                    <li><strong>Gender:</strong> $gender</li>
+                                    <li><strong>Company:</strong> $company</li>
+                                </ul>
+                                <p>Please follow up with this registration.</p>
+                                <p>Best regards,<br>Your Website</p>
+                            </div>
+                        </body>
+                    </html>";
+
+            // Set the content type to HTML
+            $headers[] = 'MIME-Version: 1.0';
+            $headers[] = 'Content-type: text/html; charset=iso-8859-1';
+
+            // Additional headers
+            $headers[] = "From: $email";
+
+            // Send the HTML-formatted email
+            if (mail($receiver, $subject, $body, implode("\r\n", $headers))) {
+
             $sender = "From $email";
-            if(mail($receiver, $subject, $body, $sender)) {
+            // if(mail($receiver, $subject, $body, $sender)) {
                 echo "Your message has been delivered!";
                 echo "<p>Thank you for your registration.</p>";
             } else {
